@@ -8,6 +8,7 @@ public class MyapplicationServerconfigApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyapplicationServerconfigApplication.class, args);
+		System.out.println("Hello this is spring boot project");
 	}
 
 }
