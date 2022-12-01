@@ -24,7 +24,7 @@ export class EmployeeService {
     return this.httpClient.get<Employee>(`${this.baseURL}/${id}`);
 }
 
-  updateEmplyee(id:number, employee:Employee) : Observable<object>{
+  updateEmployee(id:number, employee:Employee) : Observable<object>{
     return this.httpClient.put('${this.baseURL}/${id}', employee);
   }
 
